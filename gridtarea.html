@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid template area</title>
+    <style>
+        .parent{
+            display: grid;
+            height: 500px;
+            width:500px;
+            /* height: 100vh; */
+            /* gap: 20px; */
+            grid-template-areas: 
+            'img1 img2 img3 img4'
+            'img1 img2 img3 img4'
+            'img1 img6 img7 img4'
+            'img1 img6 img7 img8'
+            'img5 img6 img11 img8'
+            'img5 img10 img11 img13'
+            'img9 img10 img12 img13'
+            'img9 img10 img12 img13';
+        }
+        .img1{
+            grid-area: img1;
+        }
+         .img2{
+            grid-area: img2;
+        }
+         .img3{
+            grid-area: img3;
+        }
+         .img4{
+            grid-area: img4;
+        }
+         .img5{
+            grid-area: img5;
+        }
+         .img6{
+            grid-area: img6;
+        }
+         .img7{
+            grid-area: img7;
+        }
+         .img8{
+            grid-area: img8;
+        }
+         .img9{
+            grid-area: img9;
+        }
+         .img10{
+            grid-area: img10;
+        }
+         .img11{
+            grid-area: img11;
+        }
+         .img12{
+            grid-area: img12;
+        }
+         .img13{
+            grid-area: img13;
+            height: 100px;
+            width: 100px;
+        }
+        /* .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+            height: 100%;
+            width: 100%; */
+        
+        .parent img{
+            width:100%;
+            height:100%
+
+        }
+    </style>
+</head>
+<body>
+ <div class="parent">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFw-v451MLpLtnTGk52YUgUTq3T9a-3FTusw&s" alt="" class="img1">
+      <img src="https://www.deccanchronicle.com/h-upload/2025/08/09/1946207-mahesh-babu.webp" alt="" class="img2">
+      <img src="https://e1.pxfuel.com/desktop-wallpaper/514/88/desktop-wallpaper-prabhas-in-bujjigadu-movie-prabhas-movie.jpg" alt="" class="img3">
+      <img src="https://pbs.twimg.com/media/CxDbOecWEAAMyXl.jpg" alt="" class="img4">
+      <img src="https://images.moneycontrol.com/static-mcnews/2024/05/20240520040155_temper-725x435.png" alt="" class="img5">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI1GAv0hazDBHCIHMuCHpNH5Sv17XExRSPHA&s" alt="" class="img6">
+      <img src="https://www.sakshi.com/gallery_images/2023/09/23/Tollywood%20Megastar%20Chiranjeevi%20Unseen%20and%20Rare%20Images-20.jpg" alt="" class="img7">
+      <img src="https://images.indianexpress.com/2019/08/nagarjuna-8.jpg" alt="" class="img8">
+      <img src="https://images.news18.com/ibnlive/uploads/2022/12/44316654_307482626525037_1652526321706837746_n.jpg?impolicy=website&width=0&height=0" alt="" class="img9">
+      <img src="https://pbs.twimg.com/media/FyOY2FyacAIWnK0.jpg" alt="" class="img10">
+      <img src="https://i.pinimg.com/736x/a2/fa/32/a2fa320c510c6f53737401d01d0f4949.jpg" alt="" class="img11">
+      <img src="https://assets.thehansindia.com/h-upload/2021/06/08/1080922-falaknuma-das-sequel.webp" alt=""class="img12">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvuHDbKkNOfN9jFSpH5osT4gj_aMTS1lVJi87Kto2oBr2yokBARY3LDFW2o9ATcp-9g6w&usqp=CAU" alt="" class="img13">
+ </div>
+</body>
+</html>
